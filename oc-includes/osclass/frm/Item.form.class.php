@@ -1,5 +1,4 @@
 <?php if ( ! defined('ABS_PATH')) exit('ABS_PATH is not loaded. Direct access is not allowed.');
-
 /*
  * Copyright 2014 Osclass
  *
@@ -563,13 +562,13 @@
                 $item['s_region'] = Session::newInstance()->_getForm('region');
             }
             parent::generic_input_text('region', (isset($item['s_region'])) ? $item['s_region'] : null, false, false);
-            parent::generic_input_hidden('regionId', (isset($item['fk_i_region_id']) && $item['fk_i_region_id']!=null)?$item['fk_i_region_id']:'');
+            //parent::generic_input_hidden('regionId', (isset($item['fk_i_region_id']) && $item['fk_i_region_id']!=null)?$item['fk_i_region_id']:'');
             return true;
         }
 
         static public function city_text($item = null) {
             if($item==null) { $item = osc_item(); };
-            if( Session::newInstance()->_getForm('city') != "" ) {
+            if(Session::newInstance()->_getForm('city') != "" ) {
                 $item['s_city'] = Session::newInstance()->_getForm('city');
             }
             parent::generic_input_text('city', (isset($item['s_city'])) ? $item['s_city'] : null, false, false);
@@ -595,6 +594,29 @@
             parent::generic_input_text('address', (isset($item['s_address'])) ? $item['s_address'] : null);
             return true;
         }
+
+        static public function d_coord_long($item = null) {
+            if($item==null) { $item = osc_item(); };
+            if( Session::newInstance()->_getForm('d_coord_long') != "" ) {
+                $item['d_coord_long'] = Session::newInstance()->_getForm('d_coord_long');
+            }
+            parent::generic_input_text('d_coord_long', (isset($item['d_coord_long'])) ? $item['d_coord_long'] : null);
+            return true;
+        }
+
+        static public function d_coord_lat($item = null) {
+            if($item==null) { $item = osc_item(); };
+            if( Session::newInstance()->_getForm('d_coord_lat') != "" ) {
+                $item['d_coord_lat'] = Session::newInstance()->_getForm('d_coord_lat');
+            }
+            parent::generic_input_text('d_coord_lat', (isset($item['d_coord_lat'])) ? $item['d_coord_lat'] : null);
+            return true;
+        }
+
+
+        
+
+
 
         static public function zip_text($item = null) {
             if($item==null) { $item = osc_item(); };
@@ -788,6 +810,10 @@
                 address: {
                     minlength: "<?php echo osc_esc_js(__("Address: enter at least 3 characters")); ?>.",
                     maxlength: "<?php echo osc_esc_js(__("Address: no more than 100 characters")); ?>."
+                },
+                d_coord_long:
+                {
+                    minlength: "<?php echo osc_esc_js(__("Вы не поставили метку на карте с местоположением!")); ?>.",
                 }
                 <?php osc_run_hook('item_form_new_validation_messages'); ?>
             },
@@ -846,9 +872,8 @@
             });
         }
     }
-
-
 </script>
+
 <?php
         }
 
@@ -1148,7 +1173,6 @@
 </script>
 <?php
         }
-
 
         static public function photos($resources = null) {
             if($resources==null) { $resources = osc_get_item_resources(); };

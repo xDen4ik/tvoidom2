@@ -1,4 +1,19 @@
 <?php if (!defined('OC_ADMIN')) exit('Direct access is not allowed.');
+/*
+ * Copyright 2014 Osclass
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
 
 osc_enqueue_script('jquery-validate');
 osc_enqueue_script('php-date');
@@ -118,10 +133,9 @@ function render_offset()
 }
 osc_current_admin_theme_path('parts/header.php'); ?>
 <div id="pretty-form">
-
     <div class="grid-row no-bottom-margin">
         <div class="row-wrapper">
-            <h2 class="render-title"><?php echo customText('subtitle'); ?> <span style="font-size: small;"><a href="<?php echo osc_item_url(); ?>">
+            <h2 class="render-title"><?php echo customText('subtitle'); ?> <span style="font-size: small;"><a href="<?php echo osc_item_url(); ?>"><?php _e('View listing on front'); ?></a></span></h2>
         </div>
     </div>
     <div class="grid-row no-bottom-margin float-right">
@@ -161,6 +175,11 @@ osc_current_admin_theme_path('parts/header.php'); ?>
                         <div class="input-description-wide">
                             <?php printLocaleDescription(osc_get_locales()); ?>
                         </div>
+                        <br>
+
+                        <div id="map" class="map" style="height: 400px;">
+                        </div>
+
                         <?php if (osc_price_enabled_at_items()) { ?>
                             <div>
                                 <label><?php _e('Price'); ?></label>
@@ -168,8 +187,7 @@ osc_current_admin_theme_path('parts/header.php'); ?>
                                 <span class="input-currency"><?php ItemForm::currency_select(); ?></span>
                             </div>
                         <?php } ?>
-                        <div id="map" class="map" style="height: 400px;">
-                        </div>
+
                         <?php if (osc_images_enabled_at_items()) { ?>
                             <div class="photo_container">
                                 <label><?php _e('Photos'); ?></label>
@@ -215,7 +233,7 @@ osc_current_admin_theme_path('parts/header.php'); ?>
                             </div>
                         </div>
 
-                        <div id="block" class="well ui-rounded-corners input-separate-top">
+                        <div class="well ui-rounded-corners input-separate-top">
                             <h3 class="label"><?php _e('Location'); ?></h3>
                             <div class="input-has-placeholder input-separate-top">
                                 <label><?php _e('Country'); ?></label>
@@ -242,11 +260,11 @@ osc_current_admin_theme_path('parts/header.php'); ?>
                                 <?php ItemForm::address_text(); ?>
                             </div>
                             <div class="input-has-placeholder input-separate-top">
-                                <label><?php _e('Координаты'); ?></label>
+                                <label><?php _e('РљРѕРѕСЂРґРёРЅР°С‚С‹'); ?></label>
                                 <?php ItemForm::d_coord_long(); ?>
                             </div>
                             <div class="input-has-placeholder input-separate-top">
-                                <label><?php _e('Координаты'); ?></label>
+                                <label><?php _e('РљРѕРѕСЂРґРёРЅР°С‚С‹'); ?></label>
                                 <?php ItemForm::d_coord_lat(); ?>
                             </div>
                         </div>
@@ -284,14 +302,13 @@ osc_current_admin_theme_path('parts/header.php'); ?>
         </div>
     </div>
 </div>
-<?php osc_current_admin_theme_path('parts/footer.php'); ?>
 <script src="https://api-maps.yandex.ru/2.1/?apikey=fcec40dd-9eaf-41db-bda3-9b3f4023eadd&lang=ru-RU" type="text/javascript"></script>
 <script>
     window.addEventListener("DOMContentLoaded", function() {
         x1 = document.getElementById('d_coord_lat').value;
         x2 = document.getElementById('d_coord_long').value;
         ymaps.ready(init);
-        //Создание карты
+        //пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
         function init() {
             var myPlacemark;
             var geolocation = ymaps.geolocation,
@@ -309,7 +326,7 @@ osc_current_admin_theme_path('parts/header.php'); ?>
                 options: {
                     provider: 'yandex#map',
                     noPlacemark: true,
-                    placeholderContent: 'Поиск',
+                    placeholderContent: 'РџРѕРёСЃРє',
                 },
 
             });
@@ -326,17 +343,16 @@ osc_current_admin_theme_path('parts/header.php'); ?>
                 userCoodinates = result.geoObjects.get(0).geometry.getCoordinates();
                 result.geoObjects.options.set('preset', 'islands#redCircleIcon');
                 result.geoObjects.get(0).properties.set({
-                    balloonContentBody: 'Мое местоположение',
+                    balloonContentBody: 'РњРѕРµ РјРµСЃС‚РѕРїРѕР»РѕР¶РµРЅРёРµ',
                 });
                 myMap.geoObjects.add(result.geoObjects);
             });
 
-            //Добавление элементов управления на карту
+
             myMap.controls.add('zoomControl');
             myMap.controls.add('geolocationControl');
             myMap.controls.add(searchControl);
 
-            //Адрес запроса
             searchControl.events.add('submit', function() {
                 document.getElementById('address').value = searchControl.getRequestString();
                 // document.getElementById('address_text').innerHTML = searchControl.getRequestString();
@@ -349,7 +365,6 @@ osc_current_admin_theme_path('parts/header.php'); ?>
                 var index = e.get('index');
                 searchControl.getResult(index).then(function(res) {
                     var coords = res.geometry.getCoordinates();
-                    //alert('Метка поиска ' + res.geometry.getCoordinates());
                     const x = coords.split(",");
                     document.getElementById('d_coord_lat').value = x[1];
                     document.getElementById('d_coord_long').value = x[0];
@@ -361,13 +376,12 @@ osc_current_admin_theme_path('parts/header.php'); ?>
                     } else {
                         myPlacemark = createPlacemark(coords);
                         myMap.geoObjects.add(myPlacemark);
-                        // Слушаем событие окончания перетаскивания на метке.
                         myPlacemark.events.add('dragend', function() {
                             getAddress(coords);
                         });
                         document.getElementById('d_coord_lat').value = x[1];
                         document.getElementById('d_coord_long').value = x[0];
-                        //alert('Координаты (поиск) ' + coords);
+
                         $("div.input-has-placeholder.input-separate-top").find("label").css({
                             "display": "none"
                         });
@@ -376,49 +390,38 @@ osc_current_admin_theme_path('parts/header.php'); ?>
                 });
             })
 
-            // Слушаем клик на карте.
+
             myMap.events.add('click', function(e) {
                 var coords = e.get('coords');
                 document.getElementById('d_coord_lat').value = coords[1];
                 document.getElementById('d_coord_long').value = coords[0];
-                ymaps.geocode('Мое местоположение').then(function(res) {
-                    ymaps.geocode('Координаты места').then(function(res) {});
+                ymaps.geocode('пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ').then(function(res) {
+                    ymaps.geocode('пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ').then(function(res) {});
                 });
-                // Если метка уже создана – просто передвигаем ее.
                 if (myPlacemark) {
                     myPlacemark.geometry.setCoordinates(coords);
                 }
-                // Если нет – создаем.
                 else {
                     myPlacemark = createPlacemark(coords);
                     myMap.geoObjects.add(myPlacemark);
-                    // Слушаем событие окончания перетаскивания на метке.
-                    myPlacemark.events.add('dragend', function() {
-                        getAddress(myPlacemark.geometry.getCoordinates());
-                        ymaps.geocode('Мое местоположение').then(function(res) {
-                            ymaps.geocode('Координаты места').then(function(res) {});
-                        });
-                    });
+
                 }
                 searchControl.hideResult();
-                //Координаты нажатой метки
                 getAddress(coords);
             });
 
 
-            // Создание метки.
             function createPlacemark(coords) {
                 return new ymaps.Placemark(coords, {
-                    iconCaption: 'поиск...'
+                    iconCaption: 'РџРѕРёСЃРє...'
                 }, {
                     preset: 'islands#violetDotIconWithCaption',
                     draggable: true
                 });
             }
 
-            // Определяем адрес по координатам (обратное геокодирование).
             function getAddress(coords) {
-                myPlacemark.properties.set('iconCaption', 'поиск...');
+                myPlacemark.properties.set('iconCaption', 'РџРѕРёСЃРє...');
                 ymaps.geocode(coords).then(function(res) {
                     var firstGeoObject = res.geoObjects.get(0);
                     var region = firstGeoObject.properties.get('metaDataProperty.GeocoderMetaData.AddressDetails.Country.AdministrativeArea.AdministrativeAreaName');
@@ -455,7 +458,7 @@ osc_current_admin_theme_path('parts/header.php'); ?>
             }
 
 
-            /*  if (x1.length > 2 && x2.length > 2) {
+             if (x1.length > 2 && x2.length > 2) {
                  var myPlacemark = new ymaps.Placemark(
                      [x2, x1]
                  );
@@ -467,7 +470,8 @@ osc_current_admin_theme_path('parts/header.php'); ?>
                      });
                  }
                  setTimeout(sayHi, 1000);
-             } */
+             }
         }
     });
 </script>
+<?php osc_current_admin_theme_path('parts/footer.php'); ?>
