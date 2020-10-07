@@ -1,0 +1,373 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Renew Ads\n"
+"POT-Creation-Date: 2018-09-25 23:31+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: cartagena68 <webmaster@swappingol.com>\n"
+"Language-Team: osclass.pro\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1.1\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/admin.php:57
+msgid "Congratulations. Renew ads settings are now saved."
+msgstr "Обновление параметров сохранены."
+
+#: admin/admin.php:57 admin/admin.php:67 admin/admin.php:81 admin/admin.php:91
+#: admin/admin.php:97
+msgid "x"
+msgstr "x"
+
+#: admin/admin.php:67
+msgid "Congratulations. Spam ads cron settings are now saved."
+msgstr "Настройки cron  сохранены."
+
+#: admin/admin.php:81
+msgid "Congratulations. Expired ads cron settings are now saved."
+msgstr "Поздравления. Настройки cron  сохранены."
+
+#: admin/admin.php:91
+msgid "Congratulations. Expired ads have been deleted."
+msgstr "Истекшие объявления удалены."
+
+#: admin/admin.php:97
+msgid "Congratulations. Spam ads have been deleted."
+msgstr "Спам-объявления были удалены."
+
+#: admin/admin.php:133
+msgid "Renew Ads Settings"
+msgstr "Renew Ads настройки"
+
+#: admin/admin.php:149
+msgid "Set max. times an ad can be renewed (Enter 0 for no limitations)."
+msgstr ""
+"Установите макс. количество раз, сколько объявление может быть обновлено "
+"(введите 0 без ограничений)."
+
+#: admin/admin.php:153
+msgid "User has to wait"
+msgstr "Пользователь должен подождать"
+
+#: admin/admin.php:153
+msgid ""
+"seconds to republish the ad again (1 hour = 3600 sec. / 1 day = 86400 sec.)"
+msgstr ""
+"секунды для повторной публикации объявления (1 час = 3600 сек. / 1 день = "
+"86400 сек.)"
+
+#: admin/admin.php:153
+msgid "If the value is set to zero, there is no wait period"
+msgstr "Если значение равно нулю, период ожидания отсутствует"
+
+#: admin/admin.php:157
+msgid "Notify admin when a listing has been renewed"
+msgstr "Уведомить администратора, когда объявление было продлено"
+
+#: admin/admin.php:161
+msgid "Show only expired ads in user dashboard"
+msgstr "Показывать только истекшие объявления в аккаунте пользователя"
+
+#: admin/admin.php:165
+msgid ""
+"Show all ads in user dasboard (disabled, inactive and spam ads are not shown)"
+msgstr ""
+"Показать все объявления в пользовательском аккаунте (отключенные, неактивные "
+"и спам-объявления не отображаются)"
+
+#: admin/admin.php:169
+msgid ""
+"Allow users to only renew ads (it will not change publishing date, only "
+"renew expiration date and retain position)"
+msgstr ""
+"Разрешить пользователям только обновлять объявления (Дата публикации не "
+"изменится, Дата окончания срока действия продлится и позиция сохранится)"
+
+#: admin/admin.php:173 admin/admin.php:245 admin/admin.php:333
+msgid "Update"
+msgstr "Обновить"
+
+#: admin/admin.php:191
+msgid "Expired Ads Settings"
+msgstr "Настройки истёкших объявлений"
+
+#: admin/admin.php:193
+msgid ""
+"NOTE: both Cron and Manual button will delete maximum of 50 expired ads at a "
+"time"
+msgstr ""
+"ПРИМЕЧАНИЕ: одновременно  использование кнопок Cron и Manual будут удалять "
+"максимум 50 истекших объявлений одновременно"
+
+#: admin/admin.php:217
+msgid "Set Cron to delete expired ads"
+msgstr "Установите Cron для удаления истекших объявлений."
+
+#: admin/admin.php:221 admin/admin.php:317
+msgid "Off"
+msgstr "Выкл"
+
+#: admin/admin.php:225 admin/admin.php:321
+msgid "Hourly"
+msgstr "Каждый час"
+
+#: admin/admin.php:229 admin/admin.php:325
+msgid "Daily"
+msgstr "Ежедневно"
+
+#: admin/admin.php:233 admin/admin.php:329
+msgid "Weekly"
+msgstr "Еженедельно"
+
+#: admin/admin.php:237
+msgid ""
+"Set how many days after expiration the ad will be deleted (Enter 0 to delete "
+"the ad the day is expired)."
+msgstr ""
+"Укажите, через сколько дней после истечения срока действия объявления оно "
+"будет удалено (введите 0, чтобы удалить объявление день окончания срока "
+"действия)."
+
+#: admin/admin.php:241
+msgid "Set how many days keep the log after the ad has been deleted."
+msgstr "Укажите, сколько дней хранить журнал после удаления объявления."
+
+#: admin/admin.php:271
+msgid "MANUALLY DELETE EXPIRED ADS"
+msgstr "ВРУЧНУЮ УДАЛЯТЬ СТАРЫЕ ОБЪЯВЛЕНИЯ"
+
+#: admin/admin.php:287
+msgid "Spam Ads Settings"
+msgstr "Настройки спам-объявлений"
+
+#: admin/admin.php:289
+msgid ""
+"NOTE: both Cron and Manual button will delete maximum of 50 SPAM ads at a "
+"time"
+msgstr ""
+"ПРИМЕЧАНИЕ: одновременное использование  кнопок Cron и Manual будут удалять "
+"максимум 50 спам-объявлений за раз"
+
+#: admin/admin.php:313
+msgid "Set Cron job to delete spam ads"
+msgstr "Задайте задание Cron для удаления спам-объявлений"
+
+#: admin/admin.php:359
+msgid "MANUALLY DELETE SPAM ADS"
+msgstr "РУЧНОЕ УДАЛЕНИЕ СПАМ-ОБЪЯВЛЕНИЙ"
+
+#: admin/admin.php:379
+msgid "Next hourly cron:"
+msgstr "Следующий почасовой cron:"
+
+#: admin/admin.php:395
+msgid "Next daily cron:"
+msgstr "Следующий ежедневный cron:"
+
+#: admin/admin.php:411
+msgid "Next weekly cron:"
+msgstr "Следующий еженедельный cron:"
+
+#: admin/renew_ads_log.php:25
+msgid "Renewed ads log"
+msgstr "Журнал обновленных объявлений"
+
+#: admin/renew_ads_log.php:26
+msgid "Ads been renewed by users"
+msgstr "Объявления были продлены пользователями"
+
+#: admin/renew_ads_log.php:29
+msgid "Expiring ads log"
+msgstr "Журнал истекающих объявлений"
+
+#: admin/renew_ads_log.php:30
+msgid "Ads that will expire in the next 3 days"
+msgstr "Объявления, срок действия которых истекает через 3 дня"
+
+#: admin/renew_ads_log.php:33
+msgid "Deleted expired ads log"
+msgstr "Журнал удаленных просроченных объявлений"
+
+#: admin/renew_ads_log.php:34
+msgid "Expired ads that are been deleted"
+msgstr "Удаленные объявления с истекшим сроком действия"
+
+#: index.php:307
+msgid "Admin"
+msgstr "Администратор"
+
+#: index.php:309
+msgid "Log"
+msgstr "Лог"
+
+#: index.php:331
+msgid "Republish your ads"
+msgstr "Повторная публикация объявлений"
+
+#: index.php:335
+msgid "Renew your ads"
+msgstr "Продлить объявления"
+
+#: index.php:538 index.php:760 index.php:918
+msgid "Item Id"
+msgstr "Id объявления"
+
+#: index.php:540
+msgid "Deleted for"
+msgstr "Удаляется для"
+
+#: index.php:542 index.php:762 index.php:920
+msgid "User Id"
+msgstr "ID пользователя"
+
+#: index.php:544 index.php:764 index.php:922
+msgid "Item Title"
+msgstr "Title объявления"
+
+#: index.php:546 index.php:776 index.php:932
+msgid "Contact Email"
+msgstr "E-mail для связи"
+
+#: index.php:548
+msgid "Deleted date"
+msgstr "Дата удаления"
+
+#: index.php:648 index.php:688 index.php:728 index.php:844 index.php:1002
+#: user/user-page.php:97 user/user-page.php:127
+#, php-format
+msgid "%s days "
+msgstr "%s дней"
+
+#: index.php:650 index.php:690 index.php:730 index.php:846 index.php:1004
+#: user/user-page.php:99 user/user-page.php:129
+#, php-format
+msgid "%s hours "
+msgstr "%s часов"
+
+#: index.php:652 index.php:692 index.php:732 index.php:848 index.php:1006
+#: user/user-page.php:101 user/user-page.php:131
+#, php-format
+msgid "%s minutes "
+msgstr "%s минут"
+
+#: index.php:654 index.php:694 index.php:734 user/user-page.php:133
+#, php-format
+msgid "%s seconds "
+msgstr "%s секунд"
+
+#: index.php:766 index.php:924
+msgid "Category"
+msgstr "Категория"
+
+#: index.php:768
+msgid "First publication date"
+msgstr "Дата первой публикации"
+
+#: index.php:770
+msgid "Times renewed"
+msgstr "Время обновлено"
+
+#: index.php:772
+msgid "Last renewed"
+msgstr "Последнее обновление"
+
+#: index.php:774 index.php:930
+msgid "Will Expire In"
+msgstr "Срок действия истекает"
+
+#: index.php:854 index.php:1012 user/user-page.php:107
+msgid "Expired"
+msgstr "Истекшие"
+
+#: index.php:926
+msgid "Last publication date"
+msgstr "Дата последней публикации"
+
+#: index.php:928
+msgid "Expiring date"
+msgstr "Срок действия"
+
+#: user/user-page.php:9
+msgid "Republish"
+msgstr "Переопубликовать"
+
+#: user/user-page.php:9
+msgid "Republished"
+msgstr "Переопубликовано"
+
+#: user/user-page.php:9
+msgid "republish"
+msgstr "переопубликовать"
+
+#: user/user-page.php:11
+msgid "Renew"
+msgstr "Продлить"
+
+#: user/user-page.php:11
+msgid "Renewed"
+msgstr "Продлено"
+
+#: user/user-page.php:11
+msgid "renew"
+msgstr "продлить"
+
+#: user/user-page.php:25
+msgid "You don't have any expired ad yet"
+msgstr "У вас пока нет объявлений с истекшим сроком действия"
+
+#: user/user-page.php:35
+msgid "You don't have any published ad yet"
+msgstr "У вас нет каких-либо опубликованных объявлений"
+
+#: user/user-page.php:65
+#, php-format
+msgid "Congratulations. Your ad has been %s!"
+msgstr "Поздравления. Ваше объявление %s!"
+
+#: user/user-page.php:71
+#, php-format
+msgid "%s your ads"
+msgstr "%s ваши объявления"
+
+#: user/user-page.php:91
+msgid "Will expire in: "
+msgstr "Срок действия истекает через "
+
+#: user/user-page.php:151
+msgid "Ad ID: "
+msgstr "Обявление №"
+
+#: user/user-page.php:151
+msgid "Category: "
+msgstr "Категория: "
+
+#: user/user-page.php:161
+#, php-format
+msgid "You have %s your ad %s times. You cannot %s this ad!"
+msgstr "У вас есть %s объявления %s раза. Вы не можете %s этого сделать!"
+
+#: user/user-page.php:165
+#, php-format
+msgid "To %s this ad again, you need to wait:"
+msgstr "Чтобы %s это объявление снова, вам нужно подождать:"
+
+#: user/user-page.php:169
+#, php-format
+msgid "You can %s this ad %s more times!"
+msgstr "Вы можете %s это объявление не больше %s раз!"
+
+#: user/user-page.php:181
+#, php-format
+msgid "%s this ad"
+msgstr "%s это объявление"
+
+#: user/user-page.php:191
+msgid "Publication date"
+msgstr "Дата публикации"

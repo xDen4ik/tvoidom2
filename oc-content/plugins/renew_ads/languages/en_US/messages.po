@@ -1,0 +1,282 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: cartagena68 <webmaster@swappingol.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+
+msgid "Republish your ads"
+msgstr ""
+
+msgid "You don't have any listing yet"
+msgstr ""
+
+msgid "You have republished your ad %s times. You cannot republish this ad!"
+msgstr ""
+
+msgid "To republish this ad again, you need to wait:"
+msgstr ""
+
+msgid "You can republish this ad %s more times!"
+msgstr ""
+
+msgid "Republish this ad"
+msgstr ""
+
+msgid "Publication date"
+msgstr ""
+
+msgid "%s days "
+msgstr ""
+
+msgid "%s hours "
+msgstr ""
+
+msgid "%s minutes "
+msgstr ""
+
+msgid "%s seconds "
+msgstr ""
+
+msgid "Congratulations. Your ad as been republished!"
+msgstr ""
+
+msgid "Days to expire: %s"
+msgstr ""
+
+msgid "Ad ID: "
+msgstr ""
+
+msgid "Category: "
+msgstr ""
+
+msgid "This ad expire today"
+msgstr ""
+
+msgid "Congratulations. Renew ads settings are now saved."
+msgstr ""
+
+msgid "Congratulations. Spam ads cron settings are now saved."
+msgstr ""
+
+msgid "Congratulations. Expired ads cron settings are now saved."
+msgstr ""
+
+msgid "Congratulations. Expired ads have been deleted."
+msgstr ""
+
+msgid "Congratulations. Spam ads have been deleted."
+msgstr ""
+
+msgid "Renew Ads Settings"
+msgstr ""
+
+msgid "Set max. times an ad can be renewed (Enter 0 for no limitations)."
+msgstr ""
+
+msgid "User has to wait"
+msgstr ""
+
+msgid ""
+"seconds to republish the ad again (1 hour = 3600 sec. / 1 day = 86400 sec.)"
+msgstr ""
+
+msgid "If the value is set to zero, there is no wait period"
+msgstr ""
+
+msgid "Update"
+msgstr ""
+
+msgid "Expired Ads Settings"
+msgstr ""
+
+msgid "Set Cron to delete expired ads"
+msgstr ""
+
+msgid "Hourly"
+msgstr ""
+
+msgid "Daily"
+msgstr ""
+
+msgid "Weekly"
+msgstr ""
+
+msgid "Off"
+msgstr ""
+
+msgid ""
+"Set how many days after expiration the ad will be deleted (Enter 0 to delete "
+"the ad the day is expired)."
+msgstr ""
+
+msgid ""
+"NOTE: both Cron and Manual button will delete maximum of 50 expired ads at a "
+"time "
+msgstr ""
+
+msgid "MANUALLY DELETE EXPIRED ADS"
+msgstr ""
+
+msgid "Spam Ads Settings"
+msgstr ""
+
+msgid "Set Cron job to delete spam ads"
+msgstr ""
+
+msgid ""
+"NOTE: both Cron and Manual button will delete maximum of 50 SPAM ads at a "
+"time"
+msgstr ""
+
+msgid "MANUALLY DELETE SPAM ADS"
+msgstr ""
+
+msgid "Next hourly cron:"
+msgstr ""
+
+msgid "Next daily cron:"
+msgstr ""
+
+msgid "Next weekly cron:"
+msgstr ""
+
+msgid "Notify admin when a listing has been renewed"
+msgstr ""
+
+msgid "Item Id"
+msgstr ""
+
+msgid "Deleted"
+msgstr ""
+
+msgid "Deleted date"
+msgstr ""
+
+msgid "User Id"
+msgstr ""
+
+msgid "Item Title"
+msgstr ""
+
+msgid "Category"
+msgstr ""
+
+msgid "Times renewed"
+msgstr ""
+
+msgid "Last renewed"
+msgstr ""
+
+msgid "Will Expire In Days"
+msgstr ""
+
+msgid "Contact Email"
+msgstr ""
+
+msgid "Expiring date"
+msgstr ""
+
+msgid "Renewed ads log"
+msgstr ""
+
+msgid "Ads been renewed by users"
+msgstr ""
+
+msgid "Expiring ads log"
+msgstr ""
+
+msgid "Ads that will expire in the next 3 days"
+msgstr ""
+
+msgid "Deleted expired ads log"
+msgstr ""
+
+msgid "Expired ads that are been deleted"
+msgstr ""
+
+msgid "Set how many days keep the log after the ad has been deleted."
+msgstr ""
+
+msgid "Show only expired ads in user dashboard"
+msgstr ""
+
+msgid ""
+"Allow users to only renew ads (it will not change publishing date, only "
+"renew expiration date and retain position)"
+msgstr ""
+
+msgid "First publication date"
+msgstr ""
+
+msgid "Will Expire In"
+msgstr ""
+
+msgid "Last publication date"
+msgstr ""
+
+msgid "Renew your ads"
+msgstr ""
+
+msgid "You don't have any expired ad yet"
+msgstr ""
+
+msgid "You don't have any published ad yet"
+msgstr ""
+
+msgid "Renew this ad"
+msgstr ""
+
+msgid "Will expire in: "
+msgstr ""
+
+msgid "You have %s your ad %s times. You cannot %s this ad!"
+msgstr ""
+
+msgid "To %s this ad again, you need to wait:"
+msgstr ""
+
+msgid "You can %s this ad %s more times!"
+msgstr ""
+
+msgid "Expired"
+msgstr ""
+
+msgid "Congratulations. Your ad has been %s!"
+msgstr ""
+
+msgid "%s your ads"
+msgstr ""
+
+msgid ""
+"Show all ads in user dasboard (disabled, inactive and spam ads are not shown)"
+msgstr ""
+
+msgid "Republish"
+msgstr ""
+
+msgid "Renew"
+msgstr ""
+
+msgid "Republished"
+msgstr ""
+
+msgid "Renewed"
+msgstr ""
+
+msgid "republish"
+msgstr ""
+
+msgid "renew"
+msgstr ""
+
+msgid "%s this ad"
+msgstr ""
+
+msgid "Deleted for"
+msgstr ""

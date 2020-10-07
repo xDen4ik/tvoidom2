@@ -1,0 +1,281 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: cartagena68 <webmaster@swappingol.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-2\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.3\n"
+"Language: pl\n"
+
+msgid "Republish your ads"
+msgstr "Odświeżanie ogłoszeń"
+
+msgid "You don't have any listing yet"
+msgstr "Nie masz żadnych ogłoszeń"
+
+msgid "You have republished your ad %s times. You cannot republish this ad!"
+msgstr "Odświeżyłeś ogłoszenie %s razy. Nie możesz już więcej!"
+
+msgid "To republish this ad again, you need to wait:"
+msgstr "Aby odświeżyć to ogłoszneie musisz zaczekać:"
+
+msgid "You can republish this ad %s more times!"
+msgstr "Możesz odświeżyć te ogłoszenie %s razy!"
+
+msgid "Republish this ad"
+msgstr "Odśwież to ogłoszenie"
+
+msgid "Publication date"
+msgstr "Data publikacji"
+
+msgid "%s days "
+msgstr "%s dni "
+
+msgid "%s hours "
+msgstr "%s godzin "
+
+msgid "%s minutes "
+msgstr "%s minut "
+
+msgid "%s seconds "
+msgstr "%s sekund "
+
+msgid "Congratulations. Your ad as been republished!"
+msgstr "Gratulacje. Odświeżyłeś swoje ogłoszenie!"
+
+msgid "Days to expire: %s"
+msgstr "Dni do wygaśnięcia: %s"
+
+msgid "Ad ID: "
+msgstr "ID ogłoszenia: "
+
+msgid "Category: "
+msgstr "Kategoria: "
+
+msgid "This ad expire today"
+msgstr "To ogłoszenie wygaśnie dziś"
+
+msgid "Congratulations. Renew ads settings are now saved."
+msgstr "Gratulacje. Ustawienia odświeżania ogłoszeń zapisane."
+
+msgid "Congratulations. Spam ads cron settings are now saved."
+msgstr "Gratulacje. Ustawienia Cron Spam ogłoszeń zapisane."
+
+msgid "Congratulations. Expired ads cron settings are now saved."
+msgstr "Gratulacje. Ustawienia Cron wygasających ogłoszeń zapisano."
+
+msgid "Congratulations. Expired ads have been deleted."
+msgstr "Gratulacje. Wygaśnięte ogłoszenie usunięto."
+
+msgid "Congratulations. Spam ads have been deleted."
+msgstr "Gratulacje. Spam ogłoszenie usunięto."
+
+msgid "Renew Ads Settings"
+msgstr "Odśwież ustawienia Ogłoszeń"
+
+msgid "Set max. times an ad can be renewed (Enter 0 for no limitations)."
+msgstr "Ustaw ilość razy odnowienia ogłoszenia (Wpisz 0 dla braku limitów)."
+
+msgid "User has to wait"
+msgstr "Użytkownik musi zaczekać"
+
+msgid "seconds to republish the ad again (1 hour = 3600 sec. / 1 day = 86400 sec.)"
+msgstr "sekund do ponownej publikacji (1 godzina = 3600 sek. / 1 dzień = 86400 sek.)"
+
+msgid "If the value is set to zero, there is no wait period"
+msgstr "Jeżeli wartość to zero, nie będzie oczekiwania"
+
+msgid "Update"
+msgstr "Aktualizacja"
+
+msgid "Expired Ads Settings"
+msgstr "Ustawienia wygaśniętych ogłoszeń"
+
+msgid "Set Cron to delete expired ads"
+msgstr "Ustaw Cron by kasował wygaśnięte ogłoszenia"
+
+msgid "Hourly"
+msgstr "Godzinowo"
+
+msgid "Daily"
+msgstr "Dziennie"
+
+msgid "Weekly"
+msgstr "Tygodniowo"
+
+msgid "Off"
+msgstr "Wyłącz"
+
+msgid ""
+"Set how many days after expiration the ad will be deleted (Enter 0 to delete the ad the day is "
+"expired)."
+msgstr ""
+"Ustaw ile dni po wygaśnięciu ogłoszenie będzie usunięte (wpisz 0 by kasować ogłoszenie w dzień "
+"wygasania)."
+
+msgid "NOTE: both Cron and Manual button will delete maximum of 50 expired ads at a time "
+msgstr "UWAGA: zarówno Cron i przycisk manualny usuwa maksymalnie 50 SPAM ogłoszeń na raz "
+
+msgid "MANUALLY DELETE EXPIRED ADS"
+msgstr "MANUALNE USUWANIE WYGAŚNIĘTYCH OGŁOSZEŃ"
+
+msgid "Spam Ads Settings"
+msgstr "Spam ogłoszenia ustawienia"
+
+msgid "Set Cron job to delete spam ads"
+msgstr "Ustaw zadania Cron do skasowania spam ogłoszeń"
+
+msgid "NOTE: both Cron and Manual button will delete maximum of 50 SPAM ads at a time"
+msgstr "UWAGA: zarówno Cron i przycisk manualny usuwa maksymalnie 50 SPAM ogłoszeń na raz"
+
+msgid "MANUALLY DELETE SPAM ADS"
+msgstr "MANUALNE USUWANIE SPAM OGŁOSZEŃ"
+
+msgid "Next hourly cron:"
+msgstr "Następnej godziny cron:"
+
+msgid "Next daily cron:"
+msgstr "Następnego dnia cron:"
+
+msgid "Next weekly cron:"
+msgstr "Następnego tygodnia cron:"
+
+msgid "Notify admin when a listing has been renewed"
+msgstr "Powiadom admina po odświeżeniu ogłoszenia"
+
+msgid "Item Id"
+msgstr "ID przedmiotu"
+
+msgid "Deleted"
+msgstr "Skasowane"
+
+msgid "Deleted date"
+msgstr "Data usunięcia"
+
+msgid "User Id"
+msgstr "ID użytkownika"
+
+msgid "Item Title"
+msgstr "Tytuł przedmiotu"
+
+msgid "Category"
+msgstr "Kategoria"
+
+msgid "Times renewed"
+msgstr "Razy odświeżane"
+
+msgid "Last renewed"
+msgstr "Ostatnio odnowione"
+
+msgid "Will Expire In Days"
+msgstr "Wygaśnie w ciągu dni"
+
+msgid "Contact Email"
+msgstr "Kontact Email"
+
+msgid "Expiring date"
+msgstr "Data ważności"
+
+msgid "Renewed ads log"
+msgstr "Log odświeżonych ogłoszeń"
+
+msgid "Ads been renewed by users"
+msgstr "Ogłoszenia odnowione przez użytkowników"
+
+msgid "Expiring ads log"
+msgstr "Log wygasających ogłoszeń"
+
+msgid "Ads that will expire in the next 3 days"
+msgstr "Ogłoszenia wygasną w ciągu 3 dni"
+
+msgid "Deleted expired ads log"
+msgstr "Skasowany log wygasłych ogłoszeń"
+
+msgid "Expired ads that are been deleted"
+msgstr "Wygasłe ogłoszenia które zostały usunite"
+
+msgid "Set how many days keep the log after the ad has been deleted."
+msgstr "Ustaw ile dni trzymać log po skasowaniu ogłoszenia."
+
+msgid "Show only expired ads in user dashboard"
+msgstr "Pokaż tylko wygaśnięte ogłoszenia na tablicy użytkownika"
+
+msgid ""
+"Allow users to only renew ads (it will not change publishing date, only renew expiration date and "
+"retain position)"
+msgstr ""
+"Allow users to only renew ads (nie zmienia daty publikacji, tylko odnawia datę wygasania i zachowuje "
+"pozycję)"
+
+msgid "First publication date"
+msgstr "Pierwsza data publikacji"
+
+msgid "Will Expire In"
+msgstr "Wygaśnie w"
+
+msgid "Last publication date"
+msgstr "Ostatnia data publikacji"
+
+msgid "Renew your ads"
+msgstr "Odśwież swoje ogłoszenia"
+
+msgid "You don't have any expired ad yet"
+msgstr "Nie masz wygasłych ogłoszeń"
+
+msgid "You don't have any published ad yet"
+msgstr "Nie opublikowałeś jeszcze żadnego ogłoszenia"
+
+msgid "Renew this ad"
+msgstr "Odśwież te ogłoszenie"
+
+msgid "Will expire in: "
+msgstr "Wygaśnie w: "
+
+msgid "You have %s your ad %s times. You cannot %s this ad!"
+msgstr "Masz %s twoje ogłoszenie %s razy. Nie możesz %s tego ogłoszenia!"
+
+msgid "To %s this ad again, you need to wait:"
+msgstr "By %s, musisz zaczekać:"
+
+msgid "You can %s this ad %s more times!"
+msgstr "Możesz %s te ogłoszenie %s więcej razy!"
+
+msgid "Expired"
+msgstr "Wygasłe"
+
+msgid "Congratulations. Your ad has been %s!"
+msgstr "Gratulacje. Twoje ogłoszenia zostały %s!"
+
+msgid "%s your ads"
+msgstr "%s twoje ogłoszenia"
+
+msgid "Show all ads in user dasboard (disabled, inactive and spam ads are not shown)"
+msgstr "Pokaż wszystkie ogłoszenia in user dasboard (disabled, inactive and spam ads are not shown)"
+
+msgid "Republish"
+msgstr "Publikuj ponownie"
+
+msgid "Renew"
+msgstr "Odśwież"
+
+msgid "Republished"
+msgstr "Odświeżone"
+
+msgid "Renewed"
+msgstr "Odświeżone"
+
+msgid "republish"
+msgstr "odświeżyć"
+
+msgid "renew"
+msgstr "odśwież"
+
+msgid "%s this ad"
+msgstr "%s to ogłoszenie"
+
+msgid "Deleted for"
+msgstr "Skasowane za"

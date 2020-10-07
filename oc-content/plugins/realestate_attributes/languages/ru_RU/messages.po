@@ -1,0 +1,294 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Osclass\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-15 07:22+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Juan Ramón <juanramon@osclass.org>\n"
+"Language-Team: nfo@osclass.pro\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: conf.php:58 index.php:304 index.php:310
+msgid "Property types"
+msgstr "Тип объекта"
+
+#: conf.php:85
+msgid "Delete"
+msgstr "Удалить"
+
+#: conf.php:91
+msgid "Edit"
+msgstr "Редактировать"
+
+#: conf.php:98
+msgid "Add new property types"
+msgstr "Добавить типы недвижимости"
+
+#: conf.php:119
+msgid "Add new"
+msgstr "Добавить"
+
+#: conf.php:130
+msgid "Warning"
+msgstr "Предупреждение"
+
+#: conf.php:132
+msgid ""
+"Deleting property types may end in errors. Some of those property types "
+"could be attached to some actual items"
+msgstr "Удаление типов недвижимости может закончиться ошибками"
+
+#: helper.php:13 item_edit.php:11 search_form.php:107
+msgid "For rent"
+msgstr "Сдается"
+
+#: helper.php:14 item_edit.php:12 search_form.php:108
+msgid "For sale"
+msgstr "Продается"
+
+#: helper.php:17 item_edit.php:9 view.php:75
+msgid "Type"
+msgstr "Тип предложения"
+
+#: helper.php:23 item_edit.php:25 item_edit.php:42 search_form.php:116
+#: view.php:76
+msgid "Property type"
+msgstr "Тип объекта"
+
+#: helper.php:29
+msgid "Num. Rooms"
+msgstr "Количество комнат"
+
+#: helper.php:35
+msgid "Num. Bathrooms"
+msgstr "Кол-во ванных комнат"
+
+#: helper.php:41 item_edit.php:93
+msgid "New construction"
+msgstr "Новостройка"
+
+#: helper.php:42 item_edit.php:94
+msgid "To renovate"
+msgstr "Требуется ремонт"
+
+#: helper.php:43 item_edit.php:95
+msgid "Good condition"
+msgstr "Хорошее состояние"
+
+#: helper.php:46 item_edit.php:91
+msgid "Status"
+msgstr "Статус"
+
+#: helper.php:52
+msgid "Square Meters"
+msgstr "Квадратных метров (жилая)"
+
+#: helper.php:58
+msgid "Square Meters (total)"
+msgstr "Квадратных метров (общая)"
+
+#: helper.php:64
+msgid "Num. Floors"
+msgstr "Кол-во этажей"
+
+#: helper.php:70 item_edit.php:113
+msgid "Construction Year"
+msgstr "Год постройки"
+
+#: helper.php:76 item_edit.php:157
+msgid "Condition"
+msgstr "Состояние"
+
+#: helper.php:82 helper.php:88 item_edit.php:166
+msgid "Agency"
+msgstr "Агентство"
+
+#: helper.php:94 item_edit.php:175
+msgid "Floor Number"
+msgstr "Этаж"
+
+#: helper.php:100 item_edit.php:257 item_edit.php:282
+msgid "Transport"
+msgstr "Транспорт"
+
+#: helper.php:106 item_edit.php:266 item_edit.php:291
+msgid "Zone"
+msgstr "Зона "
+
+#: helper.php:113 item_edit.php:187 search_form.php:197
+msgid "Heating"
+msgstr "Отопление"
+
+#: helper.php:119
+msgid "Air Condition"
+msgstr "Кондиционер"
+
+#: helper.php:125 item_edit.php:203 search_form.php:203
+msgid "Elevator"
+msgstr "Лифт"
+
+#: helper.php:131 item_edit.php:211 search_form.php:206
+msgid "Terrace"
+msgstr "Балкон"
+
+#: helper.php:137 item_edit.php:219 search_form.php:209
+msgid "Parking"
+msgstr "Парковка"
+
+#: helper.php:143 item_edit.php:227 search_form.php:212
+msgid "Furnished"
+msgstr "С мебелью"
+
+#: helper.php:149 item_edit.php:235 search_form.php:215
+msgid "New"
+msgstr "Новая"
+
+#: helper.php:155
+msgid "By Owner"
+msgstr "от собственника"
+
+#: helper.php:165
+msgid "Details"
+msgstr "Подробней"
+
+#: helper.php:182 item_edit.php:179 search_form.php:194 view.php:83
+msgid "Other characteristics"
+msgstr "Другие характеристики"
+
+#: index.php:301 index.php:308
+msgid "Realestate plugin"
+msgstr "Realestate плагин"
+
+#: index.php:303 index.php:309
+msgid "Configure plugin"
+msgstr "Настройка плагина"
+
+#: index.php:305 index.php:311
+msgid "View options"
+msgstr "Показать настройки"
+
+#: item_edit.php:1 search_form.php:100
+msgid "Realestate attributes"
+msgstr "Атрибуты недвижимости"
+
+#: item_edit.php:65
+msgid "Num. of rooms"
+msgstr "комнат"
+
+#: item_edit.php:78
+msgid "Num. of bathrooms"
+msgstr "ванных комнат"
+
+#: item_edit.php:104
+msgid "Square meters"
+msgstr "Квадратных метров (жилая)"
+
+#: item_edit.php:122
+msgid "Square meters (total)"
+msgstr "Квадратных метров (общая)"
+
+#: item_edit.php:131
+msgid "Num. of floors"
+msgstr "Кол-во этажей"
+
+#: item_edit.php:144
+msgid "Num. of garages (place for a car = one garage)"
+msgstr "Кол-во парковочных мест"
+
+#: item_edit.php:195 search_form.php:200
+msgid "Air condition"
+msgstr "Кондиционер"
+
+#: item_edit.php:243 search_form.php:218
+msgid "By owner"
+msgstr "от собственника"
+
+#: search_form.php:103
+msgid "Type of a sentence"
+msgstr "Тип предложения"
+
+#: search_form.php:106
+msgid "Undefined"
+msgstr "Выберите..."
+
+#: search_form.php:119
+msgid "Select a property type"
+msgstr "Тип недвижимости"
+
+#: search_form.php:130 view.php:77
+msgid "Num. Floors Range"
+msgstr "Количество этажей"
+
+#: search_form.php:140 view.php:78
+msgid "Rooms Range"
+msgstr "Количество комнат"
+
+#: search_form.php:151 view.php:79
+msgid "Bathrooms Range"
+msgstr "Количество ванных"
+
+#: search_form.php:162 view.php:80
+msgid "Garages Range"
+msgstr "Парковочные места"
+
+#: search_form.php:173 view.php:81
+msgid "Construction year Range"
+msgstr "Год постройки"
+
+#: search_form.php:184 view.php:82
+msgid "Square Meters Range"
+msgstr "Площадь"
+
+#: view.php:27 view.php:34
+msgid "Settings saved!"
+msgstr "Настройки сохранены!"
+
+#: view.php:56
+msgid "Display options"
+msgstr "Параметры отображения"
+
+#: view.php:57
+msgid "Display realestate attributes in listing page..."
+msgstr "Отображение атрибутов на странице Объявлений"
+
+#: view.php:58
+msgid "After item description"
+msgstr "Под описанием объявления"
+
+#: view.php:59
+msgid "Manually"
+msgstr "Вручную"
+
+#: view.php:60 view.php:86
+msgid "Update options"
+msgstr "Обновить настройки"
+
+#: view.php:68
+msgid "Filters"
+msgstr "Фильтры"
+
+#: view.php:69
+msgid "Show filters in search page"
+msgstr "Показывать на странице поиска"
+
+#: view.php:70
+msgid "Show all filters"
+msgstr "Показать фильтры"
+
+#: view.php:71
+msgid "Hide all filters"
+msgstr "Скрыть фильтры"
+
+#: view.php:72
+msgid "Show only specified filters"
+msgstr "Показать только указанные фильтры"
