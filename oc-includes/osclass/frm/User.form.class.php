@@ -36,6 +36,21 @@
             parent::generic_input_text("s_username", isset($user['s_username'])? $user['s_username'] : '', null, false);
         }
 
+        static public function s_phone_mobile($user = null) {
+            if( Session::newInstance()->_getForm('s_phone_mobile') != '' ) {
+                $user['s_phone_mobile'] = Session::newInstance()->_getForm('s_phone_mobile');
+            }
+            parent::generic_input_text("s_phone_mobile", isset($user['s_phone_mobile'])? $user['s_phone_mobile'] : '', null, false);
+        }
+
+        static public function s_phone_land($user = null) {
+            if( Session::newInstance()->_getForm('s_phone_land') != '' ) {
+                $user['s_phone_land'] = Session::newInstance()->_getForm('s_phone_land');
+            }
+            parent::generic_input_text("s_phone_land", isset($user['s_phone_land'])? $user['s_phone_land'] : '', null, false);
+        }
+    
+
         static public function email_login_text($user = null) {
             parent::generic_input_text("email", isset($user['s_email'])? $user['s_email'] : '', null, false);
         }
